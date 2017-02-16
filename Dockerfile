@@ -7,4 +7,6 @@ COPY target/x86_64-unknown-linux-musl/release/echo-rs /usr/local/bin/
 
 EXPOSE 4000
 
+USER app
+WORKDIR $HOME
 ENTRYPOINT ["/usr/local/bin/echo-rs"]
