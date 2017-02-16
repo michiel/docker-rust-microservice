@@ -4,4 +4,7 @@ version = "0.1.0"
 authors = ["Michiel Kalkman <michiel@nosuchtype.com>"]
 
 [dependencies]
-iron = "*"
+iron = "0.5.1"
+logger = "*"
+env_logger = "*"
+
